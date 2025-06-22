@@ -9,7 +9,7 @@ interface AboutSnoProps {
   
     return (
       <div>
-        <h1>About Sno</h1>
+        <h1>About Sno !</h1>
         <p>Param sno: {sno}</p>
       </div>
     );
