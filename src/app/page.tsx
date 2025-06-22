@@ -1,9 +1,9 @@
-import { FloatingNavDemo } from "@/components/ui/floating-nav-demo";
+import { NavbarDemo } from "@/components/ui/navbar-demo";
 
 export default function Home() {
   return (
 <>
-  <FloatingNavDemo/>
+<NavbarDemo/>
 </>
   );
 }
