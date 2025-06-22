@@ -1,17 +1,8 @@
-interface AboutSnoProps {
-    params: {
-      sno: string;
-    };
+export default async function AboutSno({
+    params,
+  }: {
+    params: Promise<{ sno: string }>
+  }) {
+    const { sno } = await params
+    return <div>My Post: {sno}</div>
   }
-  
-  export default function AboutSno({ params }: AboutSnoProps) {
-    const { sno } = params;
-  
-    return (
-      <div>
-        <h1>About Sno !</h1>
-        <p>Param sno: {sno}</p>
-      </div>
-    );
-  }
-  
